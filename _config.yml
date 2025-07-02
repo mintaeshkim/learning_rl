@@ -1,0 +1,6 @@
+title: "Learning Reinforcement Learning"
+description: "A blog to document my RL journey"
+theme: minima
+markdown: kramdown
+kramdown:
+  input: GFM
