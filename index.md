@@ -11,6 +11,7 @@ $$
 \eta^{\hat{M}}(\pi) = \mathbb{E}_{(s, a) \sim \rho_{\pi}^{\hat{T}}} [G_{\pi}^{\hat{M}}(s, a)]
 $$
 
+[Categories](/categories/)
 
 <script>
   MathJax = {
