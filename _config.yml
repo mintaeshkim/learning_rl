@@ -1,6 +1,24 @@
 title: "Learning Reinforcement Learning"
-description: "A blog to document my RL journey"
-theme: minima
+description: "An academic blog documenting my RL research journey"
+url: "https://mintaeshkim.github.io"
+baseurl: "/learning-rl"
+
+theme: jekyll-theme-slate
+
 markdown: kramdown
+highlighter: rouge
+
+# MathJax
 kramdown:
   input: GFM
+  math_engine: mathjax
+  syntax_highlighter_opts:
+    disable : true
+
+collections:
+  posts:
+    output: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
