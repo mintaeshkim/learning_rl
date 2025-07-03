@@ -18,6 +18,12 @@ kramdown:
 collections:
   posts:
     output: true
+    
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      layout: default
 
 plugins:
   - jekyll-feed
